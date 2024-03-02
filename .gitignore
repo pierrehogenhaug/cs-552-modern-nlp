@@ -131,3 +131,6 @@ dmypy.json
 wandb/
 training_output/
 .DS_Store
+Exercises/Week 1 - Word Embeddings/IMDB Dataset.csv
+Exercises/Week 1 - Word Embeddings/SimLex-999/SimLex-999.txt
+Exercises/Week 1 - Word Embeddings/SimLex-999/README.txt
