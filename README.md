@@ -180,7 +180,7 @@ Recording of the lectures will be made available on SwitchTube. We will reuse so
     <tr>
         <td><strong>Week 10</strong></td>
         <td>1 May <br />2 May</td>
-        <td>Tokenization: BPE, WP, Char-based &#124; Multilingual LMs <br />Guest Lecture: Kayo Yin</td>
+        <td>Tokenization: BPE, WP, Char-based &#124; Multilingual LMs <a href="https://github.com/epfl-nlp/cs-552-modern-nlp/tree/main/Lectures/Week%2010">[slides]</a><br />Guest Lecture: Kayo Yin</td>
         <td>Suggested reading: <ul><li><a href="https://arxiv.org/abs/2112.10508">Between words and characters: A brief history of open-vocabulary modeling and tokenization in NLP</a></li><li><a href="https://arxiv.org/abs/2105.13626">Byt5: Towards a token-free future with pre-trained byte-to-byte models</a></li><li><a href="https://arxiv.org/abs/1508.07909">Neural machine translation of rare words with subword units</a></li><li><a href="https://arxiv.org/abs/1911.02116">Unsupervised cross-lingual representation learning at scale</a></li><li><a href="https://arxiv.org/abs/1911.01464">Emerging cross-lingual structure in pretrained language models</a></li><li><a href="https://arxiv.org/abs/2005.00052">Mad-x: An adapter-based framework for multi-task cross-lingual transfer</a></li><li><a href="https://arxiv.org/abs/2110.07560">Composable sparse fine-tuning for cross-lingual transfer</a></li><li><a href="https://www.ruder.io/state-of-multilingual-ai/">The State of Multilingual AI</a></li></ul></td>
         <td>Negar Foroutan <br /> Kayo Yin</td>
     </tr>
@@ -268,21 +268,20 @@ Recording of the lectures will be made available on SwitchTube. We will reuse so
 |             |         |                                                                                       |                                                                     |
 | **Week 7**  |  10 Apr  |  Assignment 3 Q&A                   |  Badr AlKhamissi <br /> Deniz Bayazit  |
 | **Week 7**  |  11 Apr  |  Text Generation review <br />In-context Learning          [[code][7e]]    |  Deniz Bayazit <br /> Mete Ismayilzada  |
-|             |         |                                                                                       |                                                                     |
+|             |         |  |  |
 | **Week 8**  | 17 Apr  | No lecture                                                 | - |
-| **Week 8**  | 18 Apr  |  Assignment 3 Q&A  <br /> A1 Grade Review Session                |  Badr AlKhamissi <br /> Deniz Bayazit <br /> Mete Ismayilzada |                                                         |
-
-| **Week 9** | 24 & 25 Apr  |  Project                                                               |  TA meetings on-demand                              |
-|             |         |                                                                                       |                                                                     |
+| **Week 8**  | 18 Apr  |  Assignment 3 Q&A  <br /> A1 Grade Review Session                |  Badr AlKhamissi <br /> Deniz Bayazit <br /> Mete Ismayilzada |     
+| **Week 9** | 24 & 25 Apr  |  Project |  TA meetings on-demand |
+|             |         |  |  |
 | **Week 10** |  1 & 2 May  |  Project                                                                             |  TA meetings on-demand                                              |
 |             |         |                                                                                       |                                                                     |
 | **Week 11** | 8 & 9 May  |  Project  <br /> Milestone 1 Feedback                                                |  TA meetings on-demand                              |
 |             |         |                                                                                       |                                                                     |
 | **Week 12** | 15 & 16 May  |  Project                                                                              |  TA meetings on-demand                                              |
 |             |         |                                                                                       |                                                                     |
-| **Week 13** | 22 May  |  A3 Grade Review Session                                                 |  Badr AlKhamissi <br /> Deniz Bayazit                           |
+| **Week 13** | 22 May  |  Project                                                  |  Badr AlKhamissi <br /> Deniz Bayazit                           |
 |             |         |                                                                                       |                                                                     |
-| **Week 13** | 23 May  |  Project                                                 |  TA meetings on-demand                          |
+| **Week 13** | 23 May  |  A3 Grade Review Session                                                 |  TA meetings on-demand                          |
 |             |         |                                                                                       |                                                                     |
 | **Week 14** | 30 May   |  Project <br /> Milestone 2 Feedback                                                                             |  TA meetings on-demand                                              |
 
@@ -304,7 +303,7 @@ Assignment and project release annoucements will be on Ed. Your work will be sub
 All large files such as model checkpoints need to be pushed to the repository with [Git LFS](https://git-lfs.com/). Large files can take time to upload, therefore please avoid last-minute uploads that can create potential submission delays. We also propose to use [Colab](https://colab.research.google.com/) as a free GPU resource. You can find tutorials on all of these resources [here][0t].
 
 ### Late Days Policy
-All assignments and milestones are due at 23:59 on their due date. As we understand that circumstances can make it challenging to abide by these due dates, you will receive 7 late days over the course of the semester to be allocated to the assignments and project milestones as you see fit. No further extensions will be granted. The only exception to this rule is for the final report, code, and data. No extensions will be granted beyond June 14th. We will automatically calculate the late days according to your last commit; hence you don’t have to inform us. For group projects, when everyone has some late days, we will deduct individually from everyone. In the scenario where one person has no more late days, that student will lose points for the late submission. The other students in the team will continue to use their late days (i.e. no points will be deducted from them).
+All assignments and milestones are due at 23:59 on their due date. As we understand that circumstances can make it challenging to abide by these due dates, you will receive 7 late days over the course of the semester to be allocated to the assignments and project milestones as you see fit. No further extensions will be granted. The only exception to this rule is for the final report, code, and data. No extensions will be granted beyond June 14th. We will automatically calculate the late days according to your last commit; hence you don't have to inform us. For group projects, when everyone has some late days, we will deduct individually from everyone. In the scenario where one person has no more late days, that student will lose points for the late submission. The other students in the team will continue to use their late days (i.e. no points will be deducted from them). After you have used all your allotted late days, the penalty policy is a 25% deduction of the grade per day. 
 
 ### Assignments (40%):
 There will be three assignments throughout the course. They will be released and due according to the following schedule:
@@ -342,7 +341,7 @@ More details on the content of the project and the deliverables of each mileston
 
 #### Milestone 2:
 <!-- - Milestone 2 parameters can be found in the [project description][2p]. -->
-- Due: 26 May 2024
+- Due: 28 May 2024
 
 #### Final Deliverable:
 - The final report, code, and date will be due on June 14th. Students are welcome to turn in their materials ahead of time, as soon as the semester ends.
